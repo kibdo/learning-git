@@ -1,0 +1,14 @@
+{
+  "name": "learning-git",
+  "version": "1.0.0",
+  "description": "Practice repo for learning git",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
+}
