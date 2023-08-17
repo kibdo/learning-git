@@ -1,0 +1,10 @@
+let attendanceSystem = require("./attendanceSystem")
+const {Student, Attendance} = attendanceSystem
+let atiku = new Student('Umar Abubakar Atiku', 23)
+let dominion = new Student('Olofu Dominion', 20)
+let nanshak = new Student('Jackden Alex Nanshak', 20)
+let attendance = new Attendance("Primary 2 Class Attendance | Thursday")
+attendance.markPresent(atiku)
+attendance.markPresent(dominion)
+attendance.markAbsent(nanshak)
+console.log(attendance.getFullList())
